@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T12:23:31.517Z",
+        "reason": "intentional unobtrusive attribution credit line, not body content"
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-23T12:23:31.564Z",
+        "reason": "intentional unobtrusive attribution credit line, not body content"
+      }
+    ]
+  }
+}
