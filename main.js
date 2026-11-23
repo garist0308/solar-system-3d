@@ -401,8 +401,8 @@ PLANETS.forEach((p) => {
   if (moonMesh) {
     moonLabel = document.createElement("div");
     moonLabel.className = "planet-label";
-    moonLabel.style.opacity = "0.65";
-    moonLabel.style.fontSize = "10px";
+    moonLabel.style.opacity = "0.7";
+    moonLabel.style.fontSize = "11px";
     moonLabel.textContent = MOON.name;
     labelLayer.appendChild(moonLabel);
   }
